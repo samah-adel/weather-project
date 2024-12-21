@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <!-- google fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bree+Serif&family=Pacifico&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Titillium+Web:wght@600&display=swap"
+        rel="stylesheet">
+    <!-- fontawome css -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- main file css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark text-bg-dark pb-4 d-flex justify-content-between ">
+        <div class="container">
+
+
+            <a class="navbar-brand p-4 d-flex flex-row " href="index.html">
+                <img src="./imgs/logo.png" alt="logo" class="pe-4">
+
+                <div class="d-flex flex-column">
+                    <h1 class="h1-desc">Weather</h1>
+                    <small class="site-description ">tagline goes here</small>
+                </div>
+            </a>
+
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link item-editing " href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link item-editing " href="#">Live cameras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link item-editing " href="#">Photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link item-editing " href="./contact.html">Contact</a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </div>
+
+    </nav>
+
+
+
+
+    <header id="header" class="header py-5">
+        <div class="container">
+
+            <div class=" p-5 input-group">
+                <input type="text" class="rounded-input form-control  " placeholder="Find your loction ...."
+                    id="name-city">
+                <button class="btn  p-3 find-button" id="btn" type="button">Find</button>
+            </div>
+
+
+            <div id="forecast" class="d-flex py-5 text-white table-forecast ">
+                <div class="forecast">
+                    <div class="forecast-header d-flex justify-content-between" "="">
+                        <div class=" day">Saturday</div>
+                    <div class="date">2024-12-21</div>
+                </div>
+                <div class="forecast-content">
+                    <div class="location">Cairo</div>
+                    <div class="degree-day">
+                        <div class="num">21.3<sup>o</sup>C</div>
+                        <div class="forecast-icon">
+                            <img src="//cdn.weatherapi.com/weather/64x64/day/113.png" alt="icon" width="90">
+                        </div>
+                    </div>
+                    <div class="custom ">Sunny</div>
+                    <span><img src="./imgs/icon-umberella.png" alt="icon">31%</span>
+                    <span><img src="./imgs/icon-wind.png" alt="icon">11.9km/h</span>
+                    <span><img src="./imgs/icon-compass.png" alt="icon">WSW</span>
+                </div>
+            </div>
+
+
+            <div class="forecast-middel forecast text-center ">
+                <div class="forecast-header forecast-header-middel">
+                    <div class="day">Sunday</div>
+                </div>
+
+
+                <div class="forecast-content">
+                    <div class="forecast-icon">
+                        <img src="//cdn.weatherapi.com/weather/64x64/day/113.png" alt="" width="48">
+                    </div>
+                    <div class="degree">20.8<sup>o</sup>C</div>
+                    <small class="small">12.9<sup>o</sup></small>
+                    <div class="custom">Sunny</div>
+                </div>
+            </div>
+
+
+
+
+            <div class="forecast text-center ">
+                <div class="forecast-header">
+                    <div class="day">Monday</div>
+                </div>
+                <div class="forecast-content">
+                    <div class="forecast-icon">
+                        <img src="//cdn.weatherapi.com/weather/64x64/day/113.png" alt="icon" width="48">
+                    </div>
+                    <div class="degree">20.5<sup>o</sup>C</div>
+                    <small class="small">13.1<sup>o</sup></small>
+                    <div class="custom">Sunny</div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+
+
+
+    </header>
+
+
+
+    <footer id="footer" class="footer py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+
+
+
+
+
+                    <div class=" p-5 input-group">
+                        <input type="text" class="rounded-input form-control  "
+                            placeholder="Enter your email to subscribe..."  >
+                        <button class="btn   p-3 find-button" id="btn" type="submit">subscribe</button>
+                    </div>
+
+
+
+
+
+
+                </div>
+
+
+
+
+                <div class="col-md-4 ">
+                    <div class="social-links p-5">
+                        <a href="#"><i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-google-plus"></i>
+                            <i class="fa-brands fa-pinterest"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+            <p class="text-white  px-5 ">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <!------------------ Bootstrap js ----------------------->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!------------------------ js file----------------------->
+
+    <!-- <script type="module" src="./js/json.js"></script>  -->
+    <script type="module" src="./js/main.js"></script>
+</body>
+
+</html>

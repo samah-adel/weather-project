@@ -1,0 +1,232 @@
+/* nav start */
+.h1-desc {
+    color: #FFFFFF;
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0px 0px 5px;
+    text-decoration: none solid rgb(255, 255, 255);
+
+}
+
+.site-description {
+    color: #BFC1C8;
+    font-size: 10px;
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 15px;
+    text-decoration: none solid rgb(191, 193, 200);
+}
+
+
+.navbar-nav .nav-link.active {
+    color: #009AD8;
+    border: #009AD8 solid 2px;
+    border-radius: 20px;
+
+    margin: 25px;
+}
+
+.collapse ul li .item-editing {
+    color: #FFFFFF;
+    margin: 25px;
+    transition: all 0.1s;
+
+}
+
+.collapse ul li .item-editing:hover {
+    content: "";
+    color: #009AD8;
+    border: #009AD8 solid 2px;
+    border-radius: 20px;
+    margin: 25px;
+
+}
+
+/* nav end */
+
+
+
+/* main start */
+/* input start */
+main {
+    background-color: #1E202B;
+}
+
+.input-tab {
+    background-color: #262936;
+    padding: 25px;
+    border: #262936 solid 2px;
+    border-radius: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* input end */
+
+/* left side start */
+
+.contact-details {
+    background-color: #262936;
+    border-radius: 20px;
+}
+
+
+.map {
+    height: 220px;
+}
+
+.contact-info {
+    margin-left: 10px;
+    padding-bottom: 20px;
+}
+
+/* left side end */
+
+
+
+/* right side start */
+
+h2 {
+    color: #FFFFFF;
+    font-family: "Roboto","Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    text-decoration: none solid rgb(255, 255, 255);
+    line-height: normal;
+}
+p{
+    color:#BFC1C8;
+    font-family: "Roboto","Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    margin:0px 0px 14px;
+
+    text-decoration:none solid rgb(191, 193, 200);
+}
+
+
+
+
+.inpt-form,
+.form-control-plaintext {
+    /* background-color: #1E202B; */
+    border-radius: 20px;
+    border: 2px solid #262936;
+
+
+
+}
+
+
+.text-right {
+    text-align: right;
+
+}
+
+.text-right input {
+    border: none;
+    background: #009ad8;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+
+}
+
+/* right side end */
+
+
+
+
+
+
+
+
+/* footer start */
+
+
+
+/* input start */
+
+.rounded-input {
+    background-color: #1E202B;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    /* width: 200px; */
+
+}
+
+.find-button {
+    border: none;
+    background: #009ad8;
+    padding: 10px 20px;
+    border-radius: 30px 30px;
+    color: white;
+}
+
+.find-button:hover {
+    content: "";
+    border: none;
+    background: #009ad8;
+    padding: 10px 20px;
+    border-radius: 30px 30px;
+    color: white;
+}
+
+/* input end */
+
+
+
+footer {
+    background-color: #262936;
+}
+
+.footer p {
+    color: rgb(191, 193, 200);
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    line-height: 21px;
+    margin: 0px 0px 14px;
+    text-decoration: none solid rgb(191, 193, 200);
+    text-align: start;
+
+}
+
+
+.social-links a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: all 0.3s ease;
+    text-align: center;
+
+
+}
+
+.social-links a i {
+    color: #009AD8;
+    background-color: #1E202B;
+    margin: 0px 5px;
+
+    border: 2px solid #1E202B;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+
+.social-links a i:hover {
+    color: white;
+    background-color: #009AD8;
+}
